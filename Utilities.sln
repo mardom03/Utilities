@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VixEmailer", "VixEmailer\VixEmailer.csproj", "{6531A487-3242-4E6E-BB22-E796BB8CF993}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6531A487-3242-4E6E-BB22-E796BB8CF993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6531A487-3242-4E6E-BB22-E796BB8CF993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6531A487-3242-4E6E-BB22-E796BB8CF993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6531A487-3242-4E6E-BB22-E796BB8CF993}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBB99EE0-7D88-4E61-A5B5-1923A7C78872}
+	EndGlobalSection
+EndGlobal
