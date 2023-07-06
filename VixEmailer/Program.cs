@@ -8,7 +8,11 @@ namespace VixEmailer
     {
         public static void Main(string[] args)
         {
-            IHost host = Host.CreateDefaultBuilder(args)
+            IHost host = Host.CreateDefaultBuilder(args).UseContentRoot(AppContext.BaseDirectory)
+                .UseWindowsService(options =>
+                {
+                    options.ServiceName = "Vix Emailer";
+                })
                 .ConfigureServices(services =>
                 {
                     services.AddSingleton<Logger>((svc) => { 
